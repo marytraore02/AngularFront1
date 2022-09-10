@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="card">
+        <h3 class="text-center">Pays list</h3>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <th> Id </th>
+                    <th> Nom pays </th>
+                </thead>
+                <tbody>
+                 <tr *ngFor = "let pays of pays">
+                    <td> {{ pays.id_pays }}</td>
+                    <td> {{ pays.nomPays }}</td>
+                 </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
