@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card">
+        <h3 class="text-center">Users list</h3>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <th> Id </th>
+                    <th> Firs name</th>
+                    <th> Last name </th>
+                    <th> Email </th>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let user of users">
+                        <td> {{ user.id}} </td>
+                        <td> {{ user.firstname }} </td>
+                        <td> {{ user.lastname }} </td>
+                        <td> {{ user.email }} </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
