@@ -8,7 +8,7 @@ import { Pays } from './pays';
 })
 export class PaysService {
 
-  private baseUrl = "http://localhost:9000/pays/read";
+ baseUrl = "http://localhost:9000/pays/read";
 
   constructor(private http: HttpClient) { }
 
